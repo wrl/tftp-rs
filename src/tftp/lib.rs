@@ -23,7 +23,7 @@ extern crate futures;
 
 pub mod packet;
 pub mod netascii;
-mod decodedpacket;
+pub mod decodedpacket;
 
 pub mod client;
 pub mod server;
